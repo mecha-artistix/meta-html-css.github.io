@@ -1,8 +1,45 @@
 body {
   background-color: #edefee;
+  padding: 40px 200px;
 }
 .logo h2 {
   font-size: 80px;
   color: #495e57;
   text-align: center;
+}
+header nav {
+  background-color: #333333;
+  border-radius: 25px;
+  padding: 5px;
+}
+ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+li {
+  margin: 0 10px;
+  color: white;
+  text-decoration: none;
+  list-style-type: none;
+  font-size: 30px;
+}
+.hero {
+  background-image: url("https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.dreamstime.com%2Fphotos-images%2Fbackground.html&psig=AOvVaw3qJN1ulyabwBLKFxSIbdtV&ust=1677675787435000&source=images&cd=vfe&ved=0CBAQjRxqFwoTCJjz2L2juP0CFQAAAAAdAAAAABAE");
+  background-repeat: no-repeat;
+  background-position: cover;
+  background-size: cover;
+  padding: 20px;
+  border-radius: 5px;
+}
+.cat {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.column {
+  background-color: pink;
+  margin: 0px 20px;
+  border-radius: 5px;
+  padding: 10px;
 }
